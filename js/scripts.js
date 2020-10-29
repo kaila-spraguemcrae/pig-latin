@@ -20,7 +20,7 @@ function pigLatin(string){
 }//end pigLatin function
 
 
-//trying to run a sentence rather than just one word
+//pigSen function to run sentence through translator
 function pigSen(string) {
   let stringSplit = string.split(" ");
   let pigLatinArray = [];
@@ -29,6 +29,4 @@ function pigSen(string) {
   });
   return pigLatinArray.join(' ');
 }
-
- console.log(pigSen("I think I did it"));
 
